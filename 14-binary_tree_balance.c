@@ -11,10 +11,10 @@ size_t binary_tree_heigh(const binary_tree_t *tree)
 {
 	if (tree)
 	{
-		size_t west , east = 0;
+		size_t west, east = 0;
 
-		west = tree->left ? 1 +binary_tree_heigh(tree->left) : 1;
-		east = tree->right ? 1 + binary_tree_heigh(tree->right) :1;
+		west = tree->left ? 1 + binary_tree_heigh(tree->left) : 1;
+		east = tree->right ? 1 + binary_tree_heigh(tree->right) : 1;
 
 		return ((west > east) ? west : east);
 	}
