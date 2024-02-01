@@ -6,7 +6,6 @@
 
 /**
 * struct binary_tree_s - Binary tree node
-*
 * @n: Integer stored in the node
 * @parent: Pointer to the parent node
 * @left: Pointer to the left child node
@@ -43,7 +42,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
 /* To Print the binary tree*/
 int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
-
 size_t _height(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *tree);
 
