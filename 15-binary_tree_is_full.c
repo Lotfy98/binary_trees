@@ -1,4 +1,4 @@
-#include "binarytrees.h"
+#include "binary_trees.h"
 
 /**
  * is_full_rec - Checks if a binary tree is full recursively.
