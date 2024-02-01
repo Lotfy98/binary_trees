@@ -1,4 +1,4 @@
-#include "binaytrees.h"
+#include "binarytrees.h"
 
 /**
  * binary_tree_preorder - Goes through a binary tree using pre-order traversal.
