@@ -1,5 +1,5 @@
-#ifndef _BINARY_TREES_H
-#define _BINARY_TREES_H
+#ifndef BINARYTREES_H
+#define BINARYTREES_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,7 +35,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
-size_t binary_tree_height(const binary_tree_t *tree);
+size_t binary_tree_heigh(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);

@@ -1,4 +1,4 @@
-#include "binary_trees.h"
+#include "binarytrees.h"
 
 /**
  * binary_tree_is_complete - checks if a binary tree is complete

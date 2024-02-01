@@ -1,12 +1,12 @@
-#include "binary_trees.h"
+#include "binarytrees.h"
 
 /**
-* bst_remove - removes a node from a Binary Search Tree
-* @root: pointer to the root node of the tree where you will remove a node
-* @value:  value to remove in the tree
-*
-* Return: pointer to the root node of the created BST, or NULL on failure
-*/
+ * bst_remove - removes a node from a Binary Search Tree
+ * @root: pointer to the root node of the tree where you will remove a node
+ * @value:  value to remove in the tree
+ *
+ * Return: pointer to the root node of the created BST, or NULL on failure
+ */
 
 bst_t *bst_remove(bst_t *root, int value)
 {
